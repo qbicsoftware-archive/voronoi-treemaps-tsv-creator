@@ -7,7 +7,7 @@ Converts a table like derived from DAVID with columns like "Term", "Genes" and a
 ### The annotation file
 
 | term        | genes           | 
-| ------------- |:-------------:| 
+| ------------- | ------------- | 
 | GO:0006281~DNA repair      | B1AU75_MOUSE, Q4FK11_MOUSE, Q91ZH2_MOUSE, PRP19_MOUSE, RIR1_MOUSE, Q3ULD6_MOUSE, Q3UAZ7_MOUSE, Q3TU85_MOUSE | 
 | GO:0060537~muscle tissue development  | Q4FK11_MOUSE, Q91ZH2_MOUSE, PRP19_MOUSE, Q3UAZ7_MOUSE, Q3TU85_MOUSE      | 
 | GO:0006284~base-excision repair | Q564G1_MOUSE, B1AU75_MOUSE, PRP19_MOUSE, MYH10_MOUSE, Q3UJR8_MOUSE      |    
