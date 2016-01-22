@@ -40,3 +40,13 @@ The output file will be a tsv-file, that can be directly used for creating voron
 | term               | gene        | value     |
 | ------------------ | ----------- | --------- |
 | GO:0006281~DNA repair | B1AU75_MOUSE | 3.04 |
+| GO:0006281~DNA repair | Q4FK11_MOUSE | 5.7 |
+| GO:0006281~DNA repair | Q91ZH2_MOUSE | 20.4 |
+| GO:0006281~DNA repair | PRP19_MOUSE | 5.06 |
+| ... | ... | ... |
+| GO:0060537~muscle tissue development | Q4FK11_MOUSE | 5.7 |
+| GO:0060537~muscle tissue development | Q91ZH2_MOUSE | 20.4 |
+| GO:0060537~muscle tissue development | PRP19_MOUSE | 5.06 |
+| ... | ... | ... |
+| GO:0006284~base-excision repair | Q564G1_MOUSE | 30.9 |
+| ... | ... | ... |
