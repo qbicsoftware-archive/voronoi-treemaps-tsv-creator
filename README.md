@@ -3,7 +3,7 @@ Converts a table like derived from DAVID with columns like "Term", "Genes" and a
 
 ## The CLI - Command Line Interface
 ```bash
-> java -jar voronoi-treemaps-tsv-creator.jar-h
+> java -jar voronoi-treemaps-tsv-creator.jar -h
 usage: voronoi-treemaps-tsv-creator.jar -t <file> -d <file> [-h]
  -d,--datafile <arg>   A tsv-file containing the genes and their values
                        (expression/ratios/p-values)
