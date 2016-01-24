@@ -1,6 +1,18 @@
 # voronoi-treemaps-tsv-creator
 Converts a table like derived from DAVID with columns like "Term", "Genes" and a table with the Gene/Protein names plus data column (Expression/Ratio/p-value, etc) into a tsv file that can be processed for Voronoi-Treemap creation
 
+## The CLI - Command Line Interface
+```bash
+> java -jar voronoi-treemaps-tsv-creator.jar-h
+usage: voronoi-treemaps-tsv-creator.jar -t <file> -d <file> [-h]
+ -d,--datafile <arg>   A tsv-file containing the genes and their values
+                       (expression/ratios/p-values)
+ -h,--help             show this help page
+ -t,--termfile <arg>   A tsv-file containing the terms and gene-lists
+
+Process finished with exit code 0
+
+```
 
 ## Input files
 The input files must be **tab-separated**, and contain the **column names** in the **first line**!! The number of columns are not important, as long as the necessary columns with the right name is provided (see specification below).
