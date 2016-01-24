@@ -17,21 +17,21 @@
 /**
  * Created by svenfillinger on 22.01.16.
  */
-public class GeneDataParserException extends RuntimeException{
+public class GeneralDataParserException extends RuntimeException{
 
-    public GeneDataParserException(){
+    public GeneralDataParserException(){
         super();
     }
 
-    public GeneDataParserException(String s){
+    public GeneralDataParserException(String s){
         super(s);
     }
 
-    public GeneDataParserException(Throwable t){
+    public GeneralDataParserException(Throwable t){
         super(t);
     }
 
-    public GeneDataParserException(String s, Throwable t){
+    public GeneralDataParserException(String s, Throwable t){
         super(s, t);
     }
 
