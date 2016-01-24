@@ -18,7 +18,7 @@ Process finished with exit code 0
 The input files must be **tab-separated**, and contain the **column names** in the **first line**!! The number of columns are not important, as long as the necessary columns with the right name is provided (see specification below).
 
 
-### The annotation file specification
+### The annotation file specification (term file)
 This file contains the annotation and grouping of the genes to a certain term/function. The term entries can have any name. Be aware that the gene list has to be a comma separated list of names/ids. 
 
 This is an **example** of how the core columns should look like:
@@ -32,7 +32,7 @@ This is an **example** of how the core columns should look like:
 | ... | ... | ... |
 
 
-### The gene/protein linker file specefication
+### The gene/protein linker file specefication (data file)
 
 This file links the genes to the value that should be visualized in the voronoi treemaps. This value can be p-values, expression values or ratios for example. Keep in mind, which sort of values you have used.
 
