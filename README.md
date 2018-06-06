@@ -38,7 +38,7 @@ This file links the genes to the value that should be visualized in the voronoi 
 
 This is an **example** of how the core columns should look like:
 
-| gene        | value           | 
+| gene        | ratio           | 
 | ------------- |:-------------:| 
 | B1AU75_MOUSE      | 3.04 | 
 | Q91ZH2_MOUSE      | 20.4      | 
@@ -49,7 +49,7 @@ This is an **example** of how the core columns should look like:
 
 The output file will be a tsv-file, that can be directly used for creating voronoi-treemaps. The output from the example input files from above will look like this:
 
-| term               | gene        | value     |
+| term               | gene        | ratio     |
 | ------------------ | ----------- | --------- |
 | GO:0006281~DNA repair | B1AU75_MOUSE | 3.04 |
 | GO:0006281~DNA repair | Q4FK11_MOUSE | 5.7 |
