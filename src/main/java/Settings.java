@@ -23,11 +23,11 @@
  */
 public class Settings {
 
-    public static final String GENE_COLUMN = "Gene";
+    public static final String GENE_COLUMN = "gene";
 
-    public static final String TERM_COLUMN = "Term";
+    public static final String TERM_COLUMN = "term";
 
-    public static final String GENE_LIST_COLUMN = "Genes";
+    public static final String GENE_LIST_COLUMN = "genes";
 
     public static final String VALUE_COLUMN = "ratio";
 

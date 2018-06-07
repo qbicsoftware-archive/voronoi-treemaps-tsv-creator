@@ -66,9 +66,7 @@ public class GeneDataParser {
             if(header == null || header.isEmpty()){
                 throw new GeneralDataParserException("First line empty? Need header for parsing.");
             } else{
-                System.out.println(header);
                 columnIndices = Utils.getIndexFromHeader(header, geneNameColumn, valueColumn);
-                System.out.println(columnIndices);
                 if(columnIndices == null){
                     throw new GeneralDataParserException("One or more of the given column names could not be found in the header");
                 }
@@ -76,6 +74,9 @@ public class GeneDataParser {
 
             while((currentLine = br.readLine()) != null){
                 String[] content = currentLine.trim().split("\t");
+                for (String val: content) {
+                    System.err.println(val + "%%");
+                }
                 data.put(content[columnIndices.get(geneNameColumn)],
                         Double.parseDouble(content[columnIndices.get(valueColumn)].trim()));
             }

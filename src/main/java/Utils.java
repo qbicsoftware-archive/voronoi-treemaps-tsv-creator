@@ -37,6 +37,9 @@ public class Utils {
         }
 
         String[] headerContent = header.trim().split("\t");
+        for (int i=0; i< headerContent.length; i++){
+            headerContent[i] = headerContent[i].toLowerCase();
+        }
 
         for(int i = 0; i< headerContent.length; i++){
             if(nameIndices.get(headerContent[i]) != null){
