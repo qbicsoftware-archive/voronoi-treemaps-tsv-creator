@@ -74,9 +74,6 @@ public class GeneDataParser {
 
             while((currentLine = br.readLine()) != null){
                 String[] content = currentLine.trim().split("\t");
-                for (String val: content) {
-                    System.err.println(val + "%%");
-                }
                 data.put(content[columnIndices.get(geneNameColumn)],
                         Double.parseDouble(content[columnIndices.get(valueColumn)].trim()));
             }

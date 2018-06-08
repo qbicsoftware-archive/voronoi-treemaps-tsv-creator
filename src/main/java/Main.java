@@ -99,10 +99,11 @@ public class Main {
 
         Map<String, List<String>> termContainer = metaDataParser.parseMetaData(termFile, Settings.GENE_LIST_COLUMN, Settings.TERM_COLUMN);
 
-        System.out.println(TSV_HEADER);
-
         termContainer.forEach((String term, List<String> geneList) -> {
-            geneList.forEach(gene -> System.out.println(String.format("%s\t%s\t%f", term, gene, geneValues.get(gene))));
+            geneList.forEach(gene -> {
+                if (geneValues.get(gene) != null)
+                    System.out.println(String.format("%s\t%s\t%f", term, gene, geneValues.get(gene)));
+            });
         });
     }
 
